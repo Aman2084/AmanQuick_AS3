@@ -29,11 +29,5 @@ package com.aman.utils
 			return value;
 		}
 		
-		/**角度转弧度 */
-		public static function angle2Radian(num:Number):Number{return (num/180)*Math.PI;}
-		
-		/** 弧度转角度*/
-		public static function radian2angle(num:Number):Number{	return (num/Math.PI)*180;}
-		
 	}
 }

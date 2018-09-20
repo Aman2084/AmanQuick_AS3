@@ -10,9 +10,6 @@ package com.aman.utils
 	import flash.geom.Point;
 	import flash.geom.Rectangle;
 	
-	import spark.effects.Scale;
-	import spark.globalization.MatchingCollator;
-	
 	/**
 	 * 几何工具类
 	 * @author Aman
@@ -21,9 +18,6 @@ package com.aman.utils
 	 * @created  2018-6-6 下午8:51:26
 	 */
 	public class Utils_Geom{
-		
-		
-		
 		
 		/**
 		 * 计算对齐，如果大则局左上角，如果比容器小泽居中对齐
@@ -54,5 +48,10 @@ package com.aman.utils
 			return r;
 		}
 		
+		/**角度转弧度 */
+		public static function angle2Radian(num:Number):Number{return (num/180)*Math.PI;}
+		
+		/** 弧度转角度*/
+		public static function radian2angle(num:Number):Number{	return (num/Math.PI)*180;}
 	}
 }

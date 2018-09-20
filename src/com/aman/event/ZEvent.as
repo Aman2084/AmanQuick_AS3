@@ -52,6 +52,7 @@ package com.aman.event
 		public static const Exit:String = "exit";
 		public static const Out:String = "out";
 		public static const In:String = "in";
+		public static const Loaded:String = "loaded";
 		
 		public static const Start:String = "start";
 		public static const Stop:String = "stop";
