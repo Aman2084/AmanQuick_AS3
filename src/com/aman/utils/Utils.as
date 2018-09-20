@@ -277,6 +277,20 @@ package com.aman.utils
 		
 		
 		/**
+		 * int转String
+		 * @param $val  数字
+		 * @param $bit  位数（不全补0）
+		 * @return 
+		 */
+		public static function int2Str($val:int , $bit:int=0):String{
+			var s:String = $val.toString();
+			while(s.length<$bit){
+				s = "0" + s;
+			}
+			return s;
+		}
+		
+		/**
 		 * 获取URL参数
 		 * 比如：test.html?name=wlh&address=beijing
 		 * 调用这个参数后可以获得一个object，object.name=wlh; object.address=beijing
