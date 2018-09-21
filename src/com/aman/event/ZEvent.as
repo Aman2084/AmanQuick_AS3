@@ -61,6 +61,12 @@ package com.aman.event
 		public static const Resume:String = "resume";
 		public static const Play:String = "play";
 		
+		public static const Image:String = "image";
+		public static const Choese:String = "choese";
+		public static const Find:String = "find";
+		public static const Save:String = "save";
+		
+		
 		public var data:Object;
 		public var action:String;
 		
