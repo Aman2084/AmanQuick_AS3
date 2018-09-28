@@ -10,6 +10,7 @@
     <classEntry path="com.aman.ui.root.stats.StatsRoot"/>
     <classEntry path="com.aman.ui.root.stats.StatsStage3DRoot"/>
     <classEntry path="com.aman.frames.utils.Utils_Geom"/>
+    <classEntry path="com.aman.ui.root.StageLocker"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>

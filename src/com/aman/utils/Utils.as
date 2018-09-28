@@ -12,6 +12,8 @@ package com.aman.utils
 	import flash.system.System;
 	import flash.utils.ByteArray;
 	import flash.utils.getDefinitionByName;
+	
+	import spark.components.mediaClasses.VolumeBar;
 
 	public class Utils
 	{
@@ -460,5 +462,13 @@ package com.aman.utils
 			$l.data = null;
 			return data;
 		}
+		
+		public static function isImage($extension:String):Boolean{
+			$extension = $extension.toLocaleLowerCase()
+			var a:Array = ["jpg" , "jpeg" , "gif" , "png"]
+			var b:Boolean = a.indexOf($extension)!=-1;
+			return b
+		}
+		
 	}
 }
