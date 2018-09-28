@@ -11,6 +11,7 @@
     <classEntry path="com.aman.ui.root.stats.StatsStage3DRoot"/>
     <classEntry path="com.aman.frames.utils.Utils_Geom"/>
     <classEntry path="com.aman.ui.root.StageLocker"/>
+    <classEntry path="com.aman.utils.tools.pool.IPoolObject"/>
   </includeClasses>
   <includeResources/>
   <namespaceManifests/>
