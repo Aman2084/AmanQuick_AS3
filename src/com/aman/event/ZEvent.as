@@ -21,9 +21,12 @@ package com.aman.event
 	{
 		public static const SingletonError:String = "singletonError";
 		public static const ABSError:String = "absError";
+		public static const IOError:String = "ioError";
 		
 		public static const Init:String = "init";
 		public static const Add:String = "add";
+		public static const Delete:String = "delete";
+		public static const Remove:String = "remove";
 		public static const Close:String = "close";
 		
 		public static const Selected:String = "selected";
@@ -34,7 +37,12 @@ package com.aman.event
 		public static const Complete:String = "complete";
 		public static const Change:String = "change";
 		public static const Update:String = "update";
+		public static const DownLoad:String = "downLoad";
+		public static const Choese:String = "choese";
+		public static const Find:String = "find";
+		public static const Save:String = "save";
 		
+		public static const Size:String = "size";
 		public static const Resize:String = "resize";
 		public static const ResizeAtOnce:String = "resizeAtOnce";
 		
@@ -42,6 +50,7 @@ package com.aman.event
 		public static const Buy:String = "buy";
 		public static const Info:String = "info";
 		public static const Statistics:String = "statistics";
+		public static const Image:String = "image";
 		
 		public static const Shop:String = "shop";
 		public static const Cart:String = "cart";
@@ -52,6 +61,8 @@ package com.aman.event
 		public static const Exit:String = "exit";
 		public static const Out:String = "out";
 		public static const In:String = "in";
+		public static const Next:String = "next";
+		public static const Prev:String = "prev";
 		public static const Loaded:String = "loaded";
 		
 		public static const Start:String = "start";
@@ -60,12 +71,10 @@ package com.aman.event
 		public static const Resart:String = "resart";
 		public static const Resume:String = "resume";
 		public static const Play:String = "play";
+		public static const Reset:String = "reset";
+		public static const Restart:String = "restart";
 		
-		public static const Image:String = "image";
-		public static const Choese:String = "choese";
-		public static const Find:String = "find";
-		public static const Save:String = "save";
-		
+		public static const ItemDoubleClick:String = "itemDoubleClick";
 		
 		public var data:Object;
 		public var action:String;
