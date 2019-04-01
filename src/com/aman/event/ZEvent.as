@@ -37,6 +37,7 @@ package com.aman.event
 		public static const Complete:String = "complete";
 		public static const Change:String = "change";
 		public static const Update:String = "update";
+		public static const State:String = "state";
 		public static const DownLoad:String = "downLoad";
 		public static const Choese:String = "choese";
 		public static const Find:String = "find";

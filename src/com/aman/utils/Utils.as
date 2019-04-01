@@ -12,8 +12,6 @@ package com.aman.utils
 	import flash.system.System;
 	import flash.utils.ByteArray;
 	import flash.utils.getDefinitionByName;
-	
-	import spark.components.mediaClasses.VolumeBar;
 
 	public class Utils
 	{
@@ -90,9 +88,9 @@ package com.aman.utils
 			return date;
 		}
 		
-		public static function getTimeStr():String{
+		public static function getTimeStr($d:Date=null):String{
 			var timeStr:String;
-			var d:Date = new Date();
+			var d:Date = $d ? $d : new Date();
 			var h:String = (d.hours>9 ? "" : "0") + d.hours;
 			var m:String = (d.minutes>9 ? "" : "0") + d.minutes;
 			var s:String = (d.seconds>9 ? "" : "0") + d.seconds;
@@ -113,6 +111,12 @@ package com.aman.utils
 			function timeFormat(number:uint):String{
 				return  String((number<10) ? String("0"+number) : String(number));
 			}
+		}
+		
+		public static function getTimeStamp():Number{
+			var d:Date = new Date();
+			var i:Number = d.getTime();
+			return i
 		}
 		
 /*************************************************************XML********************************************************************/
